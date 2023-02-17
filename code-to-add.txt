@@ -1,0 +1,57 @@
+DIRECTIONS: 
+1. Create a new repository named i211_mysite and clone it to your local machine using VSCode
+
+2. Set up your website structure in VSCode: 
+    - about-me.html
+    - images/
+    - css/
+2. Add the required code for a blank html page to about-me.html (hint: !)
+4. Update the <title>
+5. Add these pieces of code to your HTML file
+    - you will need to do some of the HTML mark-up
+6. Log into burrow/silo and cd into your cgi-pub directory. Clone your i211_mysite repository inside your cgi-pub:
+	git clone https://github.iu.edu/username/i211_mysite.git  
+7. Check that your site works at: 
+	https://cgi.luddy.indiana.edu/~username/i211_mysite/about-me.html
+
+
+Adds a favicon, resets browser default stylesheet, adds our own custom styles:
+
+<!-- CSS Styles -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<!-- resets default browser styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- custom styles -->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+Add to about-me.html - complete the HTML markup of the content:
+
+<!-- HTML Content Displayed in the Browser -->
+<div class="container">
+    <header>
+        <figure>
+            <!-- Add an image of you (or any image if you can't find one of you) -->
+            <img src="" alt="">
+            <figcaption>Add a caption here</figcaption>
+        </figure>
+        <!-- Add an H1 of your name -->
+    </header>
+    <main>
+        <!-- 
+            H2: About me:
+            Write a _paragraph_ about you... ex. "I am a student at Indiana University majoring in..."
+
+            H2: Coursework:
+            Make a _table_ of five classes you have taken at IU
+            The first column is the course number, the second column is the course title.
+
+            H2: Extracurriculars:
+            Make a _list_ of 3+ hobbies, activities, clubs, etc.. that you enjoy!
+            At least one of these needs to link to a relevant URL
+        -->
+    </main>
+    <footer>
+        <p><small>Created in lab for I211</small></p>
+    </footer>
+</div>
